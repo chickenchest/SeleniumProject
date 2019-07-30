@@ -19,7 +19,7 @@ public class App
 WebDriver");
 
 
- driver.get("http://localhost:8090/addressbook");
+ driver.get("http://192.168.64.149:8080/addressbook");
 
  driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
  driver.findElement(By.className("v-button")).click();
