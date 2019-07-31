@@ -15,8 +15,7 @@ public class App
  ChromeOptions chromeOptions = new ChromeOptions();
  WebDriver driver = new ChromeDriver(chromeOptions);
 
- System.out.println("Hi, Welcome to Edureka's YouTube Live session on Selenium
-WebDriver");
+ System.out.println("Hi, Welcome to Edureka's YouTube Live session on Selenium WebDriver");
 
 
  driver.get("http://192.168.64.149:8080/addressbook");
